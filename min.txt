@@ -1,1 +1,5 @@
-./xmrig --donate-level 5 -o xmrpool.eu:9999 -u 49DN7u2ryJ34KL3ywBbBXKBn9SWKmMpt5PYDP4JkCN86MHQRpTZHynt2uKcFSHeFQRcgRsuj2qACh9XiQhi2ETfy7t7YbkY -k --tls --cpu-max-threads-hint=50
+wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-x64.tar.gz 
+tar -xzvf xmrig-6.21.0-linux-x64.tar.gz
+cd xmrig-6.21.0
+chmod +x xmrig
+./xmrig --donate-level 5 -o xmrpool.eu:9999 -u 49DN7u2ryJ34KL3ywBbBXKBn9SWKmMpt5PYDP4JkCN86MHQRpTZHynt2uKcFSHeFQRcgRsuj2qACh9XiQhi2ETfy7t7YbkY -k --tls
